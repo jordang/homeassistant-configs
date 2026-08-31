@@ -1,0 +1,38 @@
+# Secrets & credentials — NEVER commit these
+secrets.yaml
+.google.token
+.spotify-token-cache
+*.key
+*.pem
+*.conf
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# Logs
+*.log
+*.log.*
+home-assistant.log
+
+# HA internal / runtime
+.HA_VERSION
+.ha_run.lock
+.cloud/
+.storage/
+ip_bans.yaml
+known_devices.yaml
+
+# Caches & temp
+__pycache__/
+*.pyc
+.cache/
+
+# HACS-managed (reinstallable)
+custom_components/
+
+# Editor
+.vscode/
+.idea/   
