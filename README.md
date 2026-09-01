@@ -1,1 +1,3 @@
-# homeassistant-configs
+# Home Assistant Configuration files
+
+
