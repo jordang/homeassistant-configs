@@ -5,6 +5,7 @@ secrets.yaml
 *.key
 *.pem
 *.conf
+.ssh/*
 
 # Databases
 *.db
