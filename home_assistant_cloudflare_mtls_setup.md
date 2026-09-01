@@ -1,4 +1,4 @@
-># Home Assistant Secure External Access via Cloudflare Tunnel & mTLS
+# Home Assistant Secure External Access via Cloudflare Tunnel & mTLS
 
 This document outlines the step-by-step configuration used to expose Home Assistant (`home-assistant-45ty78.jordangrossman.com`) securely to the internet without opening inbound ports, locked down using **Cloudflare Tunnel** and **Domain-Level mTLS Client Certificate Authentication** (without relying on WAF Custom Rules).
 
